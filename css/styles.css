@@ -1,4 +1,8 @@
 *{margin:0px;padding:0px;}
+.input-email{color: #ffffff;background-color: transparent;border-radius:0px;border: 1px solid #ffffff;text-align: center;}
+.btn-submit{background-color: #204b91;border-radius:0px;border: 1px solid #ffffff;color: #ffffff; }
+.btn-submit:active{background-color: #204b91;border-radius:0px;border: 1px solid #ffffff;color: #ffffff; }
+.btn-submit:hover{background-color: #204b91;border-radius:0px;border: 1px solid #ffffff;color: #ffffff; }
 .wdt100{width: 100%;}
 .main-txt{margin-left: 50%;}
 .thumbnail{padding: 0px;background-color: transparent;text-align: center;}

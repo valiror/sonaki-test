@@ -18,12 +18,12 @@
 </div>
 <div class="col-md-8 col-sm-8">
 	<ul class="menu-ul">
-				<li><a href="#">/ ABOUT US</a></li>
-				<li><a href="#">/ WORK</a></li>
-				<li><a href="#">/ SERVICES</a></li>
-				<li><a href="#">/ BLOG</a></li>
-				<li><a href="#">/ CAREERS</a></li>
-				<li><a href="#">/ CONTACT</a></li>
+				<li><a href="#feature">/ ABOUT US</a></li>
+				<li><a href="#more-level">/ WORK</a></li>
+				<li><a href="#our-service">/ SERVICES</a></li>
+				<li><a href="#blog-sec">/ BLOG</a></li>
+				<li><a href="#newsletter">/ CAREERS</a></li>
+				<li><a href="#footer-blk">/ CONTACT</a></li>
 			</ul>
 </div>
 </div>
@@ -73,7 +73,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-<section class="read-more-block">
+<section class="read-more-block" id="more-level">
 	<div class="container-fluid">
 	<div class="row read-more-section">
 	
@@ -92,7 +92,7 @@
 	</div>		
 	</div>
 </section>
-<section class="features-block">
+<section class="features-block" id="feature">
 	<div class="container-fluid">
 	<div class="row features-section">
 	<h3>FEATURED WORKS</h3>
@@ -150,7 +150,7 @@
 		
 	</div>
 </section>
-<section class="our-service-block">
+<section class="our-service-block" id="our-service">
 	<div class="container-fluid">
 	<h3>OUR SERVICES</h3>
 	<center><hr width="5%" size="50" style="color: #b3b3b3; 
@@ -162,7 +162,7 @@
 		
 	</div>
 </section>
-<section class="about-block">
+<section class="about-block" id="blog-sec">
 	<div class="container-fluid">
 	<div class="row about-us-section">
 		<h3>ABOUT US</h3>
@@ -222,7 +222,7 @@
 		
 	</div>
 </section>
-<section class="test-block">
+<section class="test-block" id="test-txt">
 	<div class="container-fluid">
 	<div class="row testmonial-section">
 	<h3 class="head-under">TESTIMONIALS </h3>
@@ -235,25 +235,27 @@
 		
 	</div>
 </section>
-<section class="form-block">
+<section class="form-block" id="newsletter">
 	<div class="container-fluid">
 	<div class="row form-section">
 	<h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
 	<center><hr width="5%" size="50" style="color: #ffffff; 
     background-color: #ffffff;border: 1px solid #ffffff;"></center>
 	<div class="col-md-6 col-md-offset-3">
-	<form class="form-horizontal" action="" method="GET">
+
    
       
-      <div class="col-md-10 col-md-offset-1">
-        <input type="email" class="form-control" id="email" placeholder="ENTER YOUR EMAIL ADDRESS" name="">
-        <button type="submit" class="btn btn-default form-control">SUBMIT</button>
+      <div class="col-md-10 col-md-offset-1">        
+        <form action="http://www.sokrati.com" class="form-horizontal">
+    <input name="q" placeholder="Enter search terms" type="email" class="form-control input-email"/>   
+    <input type="submit" class="form-control btn-submit" value="SUBMIT" onclick="this.form.target='_blank';return true;"/>
+
+    </form>
       </div>
     
+   
     
-    
-    
-  </form>
+
 		
 	</div>
 	<div class="col-md-6 col-md-offset-3">
@@ -270,7 +272,7 @@
 		
 	</div>
 </section>
-<section class="footer-block">
+<section class="footer-block" id="footer-blk">
 	<div class="container-fluid">
 	<div class="row footer-section">
 		
@@ -297,3 +299,11 @@
 
 </body>
 </html>
+<script type="text/javascript">
+//   $(document).ready(function(){
+//     $("form").submit(function(){
+//       $("form").attr('target', '_blank');
+// return true;
+//     });
+//   });
+</script>
